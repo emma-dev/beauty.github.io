@@ -1,111 +1,197 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UFO-8">
+<meta charset="UFO-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Geelivoide</title>
-<style>
-        * {
-  box-sizing: border-box;
-}
-body
-    {
-  font-family:Arial;
-  background: hsl(0, 0%, 100%);
-}
-.Hoito {
-  text-align: start ;
-  background: rgb(255, 255, 255);
-  
-}
-.Hoito h1 {
-
-  text-align:center ;
-  font-size: 30px;
-  color: rgb(32, 32, 30);
-  
-}
-.Hoito p{
-  font-size: 10px;
-  float: left;
-  width: 1000px;
-  color: rgb(255, 255, 255);
-  
+<style> 
+body{
+margin: 70px;
+padding-top:20px ;
+font-family:serif;
+background-color:rgba(83, 136, 72, 0.568);
+background-position: fixed ;
+background-size: cover;
+background-repeat: no-repeat;
 }
 .panel {
-  overflow:hidden;
-  background-color: rgb(16, 17, 16);
+overflow:hidden;
+background-color: rgb(16, 17, 16);
 }
 .panel a {
-  float: left;
-  display:block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-style: italic;
+float: left;
+display:block;
+color: #f2f2f2;
+text-align: center;
+padding: 20px 16px;
+text-decoration: none;
+font-style: italic;
 }
 .panel a:hover {
-  background-color: rgb(253, 249, 249);
-  color: rgb(7, 7, 7);
+background-color: rgb(253, 249, 249);
+color: rgb(7, 7, 7);
 }
-.rightcolumn {   
-  float: right;
-  width: 20%;
-  
-}
-.card {
-  background-color: rgb(12, 12, 12);
-  padding: 0px;
-  
-}
-.card h2{
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-ul {
-  float: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #ffffff;
+.leftcolumn {   
+float: left;
 }
 
+ul {
+margin:1px;
+background-color: #ffffff93;
+overflow: auto;
+list-style-type: none;
+border:1px solid rgb(175, 175, 175);
+}
 li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
+display: block;
+color: #000;
+padding: 40px 30px ;
+text-decoration: none;
+border-bottom: double;
 }
 
 li a.active {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.795);
+color: rgb(0, 0, 0);
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+background-color: rgba(0, 0, 0, 0.589);
+color: rgba(255, 255, 255, 0.623);
 }
-
+.gallery{
+margin:5px;
+border:1px solid rgb(243, 240, 240);
+float:left;
+}
+.gallery:hover{
+border:1px solid rgb(102, 100, 100);
+}
+.panel1{
+overflow:scroll;
+background-color: rgba(197, 197, 197, 0.74);
+}
+.panel1 a {
+float: center;
+display:block;
+color:black;
+text-align: center;
+padding: 16px 16px;
+text-decoration: none;
+font-style: italic;
+}
+.panel1 a:hover {
+background-color: rgb(253, 249, 249);
+color: rgb(7, 7, 7);
+}
+.panel1 p{
+text-align: center;
+}
+.nis img{
+float:center;
+border: 1px solid #ccc;
+margin-inline-start: 10%;
+}
 </style>
 </head>
-<body class="Hoito">
+<body class="w3-content" style="max-width:1100px">
+<div class="w3-bar w3-white">
+<div class="w3-bar w3-black w3-hide-small">
 <div class="panel">
+<a href="index.html" style="float:right">Home</a>
 <a href="hoitotuotteet.html">Hoitotuotteet</a>
 <a href="tuoksut.html">Tuoksut</a>
 <a href="meikit.html">Meikit</a>
-<a href="index.html" style="float:right">Home</a>
+<a href="otayhte.html" >Ota yhteyttä</a>
+
+<a  href="https://www.facebook.com/profile.php?id=100010155257862" class="w3-button w3-right"><i class="fa fa-facebook-official"></i></a>
+<a  href="https://www.instagram.com/lr_beauty_blog/" class=" w3-button w3-right"><i class="fa fa-instagram"></i></a>
+<a  href="#" class=" w3-button w3-right"><i class="fa fa-snapchat"></i></a>
 </div>
-<div class="Hoito">
-<h1></h1>
-<p></p>
 </div>
 
-    <div class="rightcolumn">
-    <div class="card"> 
-    <h2>Contact us</h2>
-    <p></p>
+
+<div class="w3-bar">
+<img src="foto/50.png" style="height:380px;" >
+
+<div class="w3-left">
+<ul>
+<li><a  href="Hoitovoide.html">Hoitovoide</a></li>
+<li><a href="Käsivoide.html">Käsivoide</a></li>
+<li><a href="Geelivoide.html">Geelivoide</a></li>
+<li><a href="Päivävoide.html">Päivävoide</a></li>
+</ul>
+</div>
+</div>
+
+<div  class="w3-border-top w3-light-white">
+        <div class="w3-dropdown-click w3-right">
+                <button class="w3-button" onclick="myFunction()">
+                  Suosituimmat <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+                  <a href="#" class="w3-bar-item w3-button">Suosituimmat</a>
+                  <a href="#" class="w3-bar-item w3-button">Edullisin hinta</a>
+                  <a href="#" class="w3-bar-item w3-button">Kallein hinta</a>
+                </div>
+              </div>
+</div>
+<script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+<div class="w3-bar" style="margin-inline-start: 20%;"style="margin: 20%;"  style="margin-left:250px">
+  <div class="w3-row">
+<div class="w3-col l3 s6">
+<div class="w3-container">
+<a class="gallery" href="gel.html" ><img src="raja/raja0.png" style="height:250px;" >
+  <h6>Aloe Vera Refr. Gel Cream<br> <b>30,00 €</br></h6></a>
+</div>
+</div>
+
+<div class="w3-col l3 s6">
+<div class="w3-container">
+<a class="gallery" href="aloegel.html">                                    
+<img src="raja/geeli0.png" style="height: 250px;" ><h6>Aloe Vera MSM Body Gel<br><b>36,49 €</b></h6></a> 
+</div>
+</div>
+  </div>
+</div>
+  <div class="w3-left" >
+    <div class="w3-animate-fading" ><p><img  src="pääsivu/meiki.png" width="200px"></p>
     </div>
-</body>
-</html>
+    <div class="w3-animate-fading"><p><img   src="pääsivu/14.png" width="200px"></p>
+    </div>
+    <div class="w3-animate-fading"><p><img   src="pääsivu/15.jpg" width="200px"></p>
+    </div>
+    </div>
+    <div class="panel1">
+            <a>"Beauty" - kaikkea kauneudellesi</a>
+            <p>Beauty kategoriastamme löydät varmasti kaiken mitä tarvitset. Etsitkö laadukkaita anti-age hoitotuotteita kypsemmälle iholle, vastustamatonta punaista<br>
+            huulipunaa, leväkuorintaa tai erityistä ihoa kosteuttavaa tuotetta? Ei hätää! Astu LR verkkokauppaan, tulet rakastamaan sitä!<br></p>
+            <h4 style="text-align: center;"><br>Ihonhoito<br></h4>
+            <p>Jotta ihosi olisi säteilevä ja nuorekas, LR Online Shop tarjoaa laadukkaita ihonhoitotuotteita, päästä varpaisiin. Luonnollisella aloe vera ihonhoitosarjalla,<br>
+            Special Care tuotteilla erityistä apua ongelmaiholle, anti-aging sarja vaativalle kypsälle iholle tai erityisesti miesten ihon tarpeisiin suunniteltua hoitoa -<br>
+            LR:ltä löydät kaiken, mitä ihosi tarvitsee. LR ALOE VIA Aloe Vera Care, Beauty Diamonds tai Racine, mikä on suosikkisi LR ihonhoitosarjoista?<br></p>
+            <div class="nis" ><img src="foto/10.png"  width="700px"></div>
+    
+    
+    </div>
+    
+
+    
+</div>
+    
+    </body>
+    </html>
+
