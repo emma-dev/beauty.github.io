@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <meta rel="stylesheet" href="https://emma-dev.github.io/beauty.github.io/"
 <body>
 
 <?php
